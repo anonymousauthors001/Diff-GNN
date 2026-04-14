@@ -1,0 +1,26 @@
+digraph G {
+rankdir=TB;
+T1 [label="T1\n(4,2,4)", shape=circle];
+T2 [label="T2\n(5,3,2)", shape=circle];
+T3 [label="T3\n(4,1,4)", shape=circle];
+T4 [label="T4\n(5,2,7)", shape=circle];
+T5 [label="T5\n(3,1,5)", shape=circle];
+T6 [label="T6\n(16,10,3)", shape=circle];
+T7 [label="T7\n(3,2,4)", shape=circle];
+T8 [label="T8\n(4,2,2)", shape=circle];
+T9 [label="T9\n(14,7,3)", shape=circle];
+T10 [label="T10\n(5,2,5)", shape=circle];
+T11 [label="T11\n(20,9,5)", shape=circle];
+T1 -> T4 [label=1];
+T2 -> T4 [label=2];
+T2 -> T5 [label=2];
+T3 -> T5 [label=1];
+T4 -> T6 [label=4];
+T4 -> T7 [label=1];
+T5 -> T8 [label=1];
+T5 -> T9 [label=2];
+T6 -> T10 [label=3];
+T7 -> T10 [label=1];
+T8 -> T11 [label=1];
+T9 -> T11 [label=2];
+}
